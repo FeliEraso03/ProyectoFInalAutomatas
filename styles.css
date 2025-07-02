@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    font-family: 'Special Elite', monospace;
-    background: #2e2a24;
+    font-family: 'Inter', monospace;
+    background: url('imagendefondo.png') no-repeat center center fixed;
+    background-size: cover;
     color: #e0d7c6;
     display: flex;
     justify-content: center;
@@ -15,7 +16,7 @@ body {
     border-radius: 12px;
     padding: 2rem;
     width: 100%;
-    max-width: 95%;
+    max-width: 700px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
     display: flex;
     flex-direction: column;
