@@ -1,40 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <title>Máquina de Turing</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <title>Proyecto Máquina de Turing</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <div class="container">
-        <h1 class="titulo">Máquina de Turing</h1>
-
-        <label for="entrada">Cinta inicial:</label>
-        <input type="text" id="entrada" placeholder="Ej: ##1+10##" />
-
-        <div class="controls">
-            <button id="cargarBtn">⏎ Cargar cinta</button>
-        </div>
-
-        <div id="estado">Estado:</div>
-        <div id="cinta"></div>
-
-        <div class="controls">
-            <button id="pasoSiguienteBtn">Paso siguiente ▶</button>
-            <button id="automaticoBtn">⚙ Automático</button>
-
-            <div class="velocidad-controls">
-                <label>Velocidad:</label>
-                <button id="velocidadMenos">➖</button>
-                <span id="velocidadActual">1x</span>
-                <button id="velocidadMas">➕</button>
-            </div>
-        </div>
-
-        <pre id="pasosLog"></pre>
-    </div>
-
-    <script type="module" src="main.js"></script>
+  <div class="container">
+    <h1 class="titulo">Simulador de Máquina de Turing</h1>
+    <p style="text-align: justify; max-width: 700px; line-height: 1.5; font-size: 1rem; margin-bottom: 1.5rem;">
+        Bienvenido al simulador de una <strong>Máquina de Turing</strong>, un modelo teórico propuesto por Alan Turing 
+        que constituye la base conceptual de los sistemas computacionales modernos.<br><br>
+        Este proyecto ha sido desarrollado como parte de la asignatura <strong>Teoría de Autómatas y Lenguajes Formales</strong>, 
+        con el objetivo de aplicar los principios de la Máquina de Turing en la creación de una calculadora de números binarios.<br><br>
+        A través de esta simulación podrás observar cómo una cinta, una cabeza lectora y un conjunto de reglas 
+        trabajan paso a paso para realizar operaciones básicas como <strong>suma, resta, multiplicación y división</strong> de números 
+        en formato binario, replicando el comportamiento lógico de una computadora primitiva.
+    </p>
+    <p style="text-align: justify; max-width: 700px; line-height: 1.5; font-size: 1rem; margin-bottom: 1.5rem;">
+      <strong>Este proyecto es presentado por:</strong> <br><br>
+      Juan Felipe Eraso Navarro<br><br>
+      Karoly Torres Pacheco
+    </p>
+    <a href="Calculadora.html">
+        <button>Iniciar Calculadora</button>
+    </a> 
+  </div>
 </body>
 </html>
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Calculadora de Números Binarios</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">Calculadora de Números Binarios</h1>
+
+        <label for="entrada">Cinta inicial:</label>
+        <input type="text" id="entrada" placeholder="Ej: 111+1010" />
+
+        <div class="controls">
+            <button id="cargarBtn">⏎ Cargar cinta</button>
+        </div>
+
+        <div id="estado">Estado:</div>
+        <div id="cinta"></div>
+
+        <div class="controls">
+            <button id="pasoSiguienteBtn">Paso siguiente ▶</button>
+            <button id="automaticoBtn">⚙ Automático</button>
+
+            <div class="velocidad-controls">
+                <label>Velocidad:</label>
+                <button id="velocidadMenos">➖</button>
+                <span id="velocidadActual">1x</span>
+                <button id="velocidadMas">➕</button>
+            </div>
+        </div>
+
+        <pre id="pasosLog"></pre>
+        <a href="index.html" class="btn volver">⬅ Volver a inicio</a>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
