@@ -3500,6 +3500,7 @@ window.addEventListener('DOMContentLoaded', () => {
             'qOpeB2,#': { escribir: '#', mover: 'I', siguiente: 'qOpenF' },
             'qOpeB2,S': { escribir: '#', mover: 'I', siguiente: 'qOpenF' },
             'qOpenF,0': { escribir: '0', mover: 'I', siguiente: 'qOpenF' },
+            'qOpenF,=': { escribir: '#', mover: 'I', siguiente: 'qOpenF' },
             'qOpenF,1': { escribir: '1', mover: 'I', siguiente: 'qOpenF' },
             'qOpenF,-': { escribir: '-', mover: 'I', siguiente: 'qOpenF' },
             'qOpenF,H': { escribir: '#', mover: 'D', siguiente: 'qOpenFinFIn' },
