@@ -2924,6 +2924,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
             'qSu_1_0X,A': { escribir: 'A', mover: 'I', siguiente: 'qSu_1_0X' },
             'qSu_1_0X,B': { escribir: 'B', mover: 'I', siguiente: 'qSu_1_0X' },
+            'qSu_1_0X,H': { escribir: 'H', mover: 'D', siguiente: 'qSu_1_00' },
 
             'qSu_1_0X,0': { escribir: 'B', mover: 'D', siguiente: 'qSu_1_00' },
             'qSu_1_00,1': { escribir: '1', mover: 'D', siguiente: 'qSu_1_00' },
