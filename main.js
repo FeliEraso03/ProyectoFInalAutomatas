@@ -1923,6 +1923,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 siguiente: 'qR_BorrowH',
             },
             'qR_BorrowH,#': { escribir: '0', mover: 'D', siguiente: 'qR_vali' },
+            'qR_BorrowH,0': { escribir: '0', mover: 'D', siguiente: 'qR_vali' },
 
             'qR_vali,H': { escribir: 'H', mover: 'D', siguiente: 'qR_vali' },
             'qR_vali,0': { escribir: '0', mover: 'D', siguiente: 'qR_vali' },
